@@ -11,13 +11,13 @@
 
 .policy-section h1 {
   text-shadow: 1px 1px 2px rgba(75, 75, 75, 0.4);
-  font-family: 'Braah One', sans-serif;
-  font-weight: 400;
+  font-family: 'Funnel Display', sans-serif;
+  font-weight: 700;
   font-size: 32px;
   line-height: 1.5;
   text-transform: uppercase;
   text-align: center;
-  color: #1e7ccd;
+  color: #3b49cb;
   margin-bottom: 64px;
 
   @include media(desktop) {
@@ -28,12 +28,12 @@
 }
 
 .policy-section h2 {
-  font-family: 'Funnel Sans', sans-serif;
+  font-family: 'Funnel Display', sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: #624d44;
+  color: #566078;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -41,12 +41,12 @@
 }
 
 .policy-section h3 {
-  font-family: 'Funnel Sans', sans-serif;
+  font-family: 'Funnel Display', sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: #624d44;
+  color: #566078;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -54,12 +54,12 @@
 }
 
 .policy-section h4 {
-  font-family: 'Funnel Sans', sans-serif;
+  font-family: 'Funnel Display', sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: #624d44;
+  color: #566078;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -67,11 +67,11 @@
 }
 
 .policy-section p {
-  font-family: 'Funnel Sans', sans-serif;
+  font-family: 'Funnel Display', sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.5;
-  color: #232323;
+  color: #2a303e;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -79,11 +79,11 @@
 }
 
 .policy-section li {
-  font-family: 'Funnel Sans', sans-serif;
+  font-family: 'Funnel Display', sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.5;
-  color: #232323;
+  color: #2a303e;
   margin-bottom: 16px;
 
   @include media(desktop) {

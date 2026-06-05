@@ -7,7 +7,7 @@
   z-index: 10;
 
   @include media(desktop) {
-    padding: 8px 0;
+    padding: 12px 0;
   }
 }
 
@@ -67,11 +67,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Funnel Sans', sans-serif;
+    font-family: 'Funnel Display', sans-serif;
     font-weight: 300;
     font-size: 12px;
     line-height: 1.5;
-    color: #232323;
+    color: #2a303e;
     opacity: 0.8;
     width: 100%;
     max-width: max-content;
@@ -113,9 +113,9 @@
 }
 
 .menu-icon {
-  stroke: #232323;
+  stroke: #2a303e;
 }
 
 .close-icon {
-  stroke: #232323;
+  stroke: #2a303e;
 }

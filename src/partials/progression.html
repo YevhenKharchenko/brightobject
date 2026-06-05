@@ -2,53 +2,60 @@
   <div class="section-title-wrapper progression-title-wrapper">
     <div class="container section-title-container">
       <svg class="paw-icon" width="24" height="24">
-        <use href="./img/sprite.svg#icon-paw"></use>
+        <use href="./img/sprite.svg#icon-star"></use>
       </svg>
-      <h2 class="section-title progression-title">World Map</h2>
-      <svg class="paw-icon" width="24" height="24">
-        <use href="./img/sprite.svg#icon-paw"></use>
-      </svg>
+      <h2 class="section-title progression-title">Game World</h2>
     </div>
   </div>
   <div class="progression-bg-wrapper">
     <div class="container progression-container">
-      <p class="section-subtitle progression-subtitle">Explore step by step</p>
+      <p class="section-subtitle progression-subtitle">
+        It's a tiny world,<br />
+        but man does it have character
+      </p>
       <div class="progression-content-wrapper">
-        <img
-          class="progression-img"
-          src="./img/progression/progression-img-mob.png"
-          alt="Screenshot of the game"
-          width="160"
-          height="190"
-          loading="lazy"
-        />
-        <p class="progression-top-text">
-          You'll move from one candy-themed world to the next - think chocolate
-          forests, gummy bear valleys, that sort of thing.
+        <picture>
+          <source
+            srcset="./img/progression/progression-img1-desk.png"
+            media="(min-width: 1440px)"
+            width="300"
+            height="169" />
+          <source
+            srcset="./img/progression/progression-img1-mob.png"
+            width="343"
+            height="190" />
+          <img
+            class="progression-img"
+            src="./img/progression/progression-img1-mob.png"
+            alt="Screenshot of the game"
+            width="343"
+            height="190"
+            loading="lazy"
+        /></picture>
+        <p class="progression-text">
+          The world of Hoby Tales is built around small-scale environments where
+          everyday objects become part of the adventure. Each location
+          introduces new mechanics and visual themes.
         </p>
-        <p class="progression-bottom-text">
-          Each area has its own look and feel. Progression is clearly visible,
-          creating a sense of movement and discovery.
-        </p>
+        <picture>
+          <source
+            srcset="./img/progression/progression-img2-desk.png"
+            media="(min-width: 1440px)"
+            width="300"
+            height="169" />
+          <source
+            srcset="./img/progression/progression-img2-mob.png"
+            width="343"
+            height="190" />
+          <img
+            class="progression-img"
+            src="./img/progression/progression-img2-mob.png"
+            alt="Screenshot of the game"
+            width="343"
+            height="190"
+            loading="lazy"
+        /></picture>
       </div>
-      <picture>
-        <source
-          srcset="./img/progression/progression-bg-desk.jpg"
-          media="(min-width: 1440px)"
-          width="1440"
-          height="720" />
-        <source
-          srcset="./img/progression/progression-bg-mob.jpg"
-          width="375"
-          height="235" />
-        <img
-          class="progression-bg-img"
-          src="./img/progression/progression-bg-mob.jpg"
-          alt="Screenshot of the game"
-          width="375"
-          height="235"
-          loading="lazy"
-      /></picture>
     </div>
   </div>
 </section>

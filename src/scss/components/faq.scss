@@ -9,8 +9,6 @@
 }
 
 .faq-subtitle {
-  margin-bottom: 64px;
-
   @include media(desktop) {
   }
 }
@@ -100,11 +98,11 @@
 }
 
 .faq-btn-text {
-  font-family: 'Funnel Sans', sans-serif;
+  font-family: 'Funnel Display', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.5;
-  color: #624d44;
+  color: #566078;
   text-align: left;
 
   @include media(desktop) {
@@ -112,11 +110,11 @@
 }
 
 .faq-bottom-text {
-  font-family: 'Funnel Sans', sans-serif;
+  font-family: 'Funnel Display', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #232323;
+  color: #2a303e;
 
   @include media(desktop) {
   }

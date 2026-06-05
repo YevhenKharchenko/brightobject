@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://longbinary.online/sitemap.xml
+Sitemap: https://brightobject.space/sitemap.xml

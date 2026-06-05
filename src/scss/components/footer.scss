@@ -1,5 +1,5 @@
 .footer {
-  background: #f5f5f5;
+  background: #e1eef9;
   border-top: 1px solid #c1b7ac;
 
   @include media(desktop) {
@@ -48,10 +48,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 85px;
+  gap: 73px;
 
   @include media(desktop) {
-    gap: 73px;
+    gap: 106px;
   }
 }
 
@@ -59,26 +59,41 @@
 }
 
 .footer-link {
-  font-family: 'Funnel Sans', sans-serif;
+  font-family: 'Funnel Display', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #232323;
+  color: #2a303e;
 
   @include media(desktop) {
   }
 }
 
 .footer-text {
-  font-family: 'Funnel Sans', sans-serif;
+  font-family: 'Funnel Display', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  color: #232323;
+  text-align: center;
+  color: #2a303e;
 
   @include media(desktop) {
     order: 1;
+  }
+}
+
+.footer-br {
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.footer-span {
+  display: none;
+
+  @include media(desktop) {
+    display: inline;
   }
 }
