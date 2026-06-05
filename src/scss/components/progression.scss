@@ -1,0 +1,86 @@
+.progression-section {
+  background: #e1eef9;
+
+  @include media(desktop) {
+  }
+}
+
+.progression-bg-wrapper {
+  padding-top: 80px;
+
+  @include media(desktop) {
+  }
+}
+
+.progression-container {
+  padding: 0;
+
+  @include media(desktop) {
+  }
+}
+
+.progression-subtitle {
+  @include media(desktop) {
+  }
+}
+
+.progression-content-wrapper {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include media(desktop) {
+    padding: 0 120px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+
+.progression-top-text {
+  font-family: 'Funnel Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #232323;
+
+  @include media(desktop) {
+    max-width: 323px;
+    order: 1;
+  }
+}
+
+.progression-bottom-text {
+  font-family: 'Funnel Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #232323;
+
+  @include media(desktop) {
+    max-width: 323px;
+    order: 3;
+  }
+}
+
+.progression-img {
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    min-width: 160px;
+    margin: 0;
+    order: 2;
+  }
+}
+
+.progression-bg-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+
+  @include media(desktop) {
+  }
+}
